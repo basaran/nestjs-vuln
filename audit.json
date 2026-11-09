@@ -1,0 +1,545 @@
+{
+  "advisories": {
+    "1101609": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1101609,
+      "title": "Use of Insufficiently Random Values in undici",
+      "module_name": "undici",
+      "vulnerable_versions": ">=6.0.0 <6.21.1",
+      "patched_versions": ">=6.21.1",
+      "severity": "moderate",
+      "cwe": "CWE-330",
+      "github_advisory_id": "GHSA-c76h-2ccp-4975",
+      "url": "https://github.com/advisories/GHSA-c76h-2ccp-4975"
+    },
+    "1109537": {
+      "findings": [
+        {
+          "version": "0.0.33",
+          "paths": [
+            ".>@nestjs/mau>inquirer>external-editor>tmp"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1109537,
+      "title": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "module_name": "tmp",
+      "vulnerable_versions": "<=0.2.3",
+      "patched_versions": ">=0.2.4",
+      "severity": "low",
+      "cwe": "CWE-59",
+      "github_advisory_id": "GHSA-52f5-9888-hmc6",
+      "url": "https://github.com/advisories/GHSA-52f5-9888-hmc6"
+    },
+    "1112496": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1112496,
+      "title": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.23.0",
+      "patched_versions": ">=6.23.0",
+      "severity": "moderate",
+      "cwe": "CWE-770",
+      "github_advisory_id": "GHSA-g9mf-h72j-4rw9",
+      "url": "https://github.com/advisories/GHSA-g9mf-h72j-4rw9"
+    },
+    "1113068": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1113068,
+      "title": "undici Denial of Service attack via bad certificate data",
+      "module_name": "undici",
+      "vulnerable_versions": ">=6.0.0 <6.21.2",
+      "patched_versions": ">=6.21.2",
+      "severity": "low",
+      "cwe": "CWE-401",
+      "github_advisory_id": "GHSA-cxrh-j4jr-qwg3",
+      "url": "https://github.com/advisories/GHSA-cxrh-j4jr-qwg3"
+    },
+    "1114592": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1114592,
+      "title": "Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client",
+      "module_name": "undici",
+      "vulnerable_versions": ">=6.0.0 <6.24.0",
+      "patched_versions": ">=6.24.0",
+      "severity": "high",
+      "cwe": "CWE-248, CWE-1284",
+      "github_advisory_id": "GHSA-f269-vfmq-vjvj",
+      "url": "https://github.com/advisories/GHSA-f269-vfmq-vjvj"
+    },
+    "1114594": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1114594,
+      "title": "Undici has an HTTP Request/Response Smuggling issue",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.24.0",
+      "patched_versions": ">=6.24.0",
+      "severity": "moderate",
+      "cwe": "CWE-444",
+      "github_advisory_id": "GHSA-2mjp-6q6p-2qxm",
+      "url": "https://github.com/advisories/GHSA-2mjp-6q6p-2qxm"
+    },
+    "1114638": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1114638,
+      "title": "Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.24.0",
+      "patched_versions": ">=6.24.0",
+      "severity": "high",
+      "cwe": "CWE-409",
+      "github_advisory_id": "GHSA-vrm6-8vpv-qv8q",
+      "url": "https://github.com/advisories/GHSA-vrm6-8vpv-qv8q"
+    },
+    "1114640": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1114640,
+      "title": "Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.24.0",
+      "patched_versions": ">=6.24.0",
+      "severity": "high",
+      "cwe": "CWE-248",
+      "github_advisory_id": "GHSA-v9p9-hfj2-hcw8",
+      "url": "https://github.com/advisories/GHSA-v9p9-hfj2-hcw8"
+    },
+    "1114642": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1114642,
+      "title": "Undici has CRLF Injection in undici via `upgrade` option",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.24.0",
+      "patched_versions": ">=6.24.0",
+      "severity": "moderate",
+      "cwe": "CWE-93",
+      "github_advisory_id": "GHSA-4992-7rv2-5pvq",
+      "url": "https://github.com/advisories/GHSA-4992-7rv2-5pvq"
+    },
+    "1120654": {
+      "findings": [
+        {
+          "version": "0.0.33",
+          "paths": [
+            ".>@nestjs/mau>inquirer>external-editor>tmp"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1120654,
+      "title": "tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
+      "module_name": "tmp",
+      "vulnerable_versions": "<0.2.6",
+      "patched_versions": ">=0.2.6",
+      "severity": "high",
+      "cwe": "CWE-22",
+      "github_advisory_id": "GHSA-ph9p-34f9-6g65",
+      "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65"
+    },
+    "1121242": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1121242,
+      "title": "undici vulnerable to HTTP header injection via Set-Cookie percent-decoding",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.27.0",
+      "patched_versions": ">=6.27.0",
+      "severity": "moderate",
+      "cwe": "CWE-93",
+      "github_advisory_id": "GHSA-p88m-4jfj-68fv",
+      "url": "https://github.com/advisories/GHSA-p88m-4jfj-68fv"
+    },
+    "1121255": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1121255,
+      "title": "undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.27.0",
+      "patched_versions": ">=6.27.0",
+      "severity": "low",
+      "cwe": "CWE-183",
+      "github_advisory_id": "GHSA-g8m3-5g58-fq7m",
+      "url": "https://github.com/advisories/GHSA-g8m3-5g58-fq7m"
+    },
+    "1130716": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1130716,
+      "title": "undici vulnerable to downstream response desynchronization via retry interceptor",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.28.0",
+      "patched_versions": ">=6.28.0",
+      "severity": "moderate",
+      "cwe": "CWE-444",
+      "github_advisory_id": "GHSA-8xcm-r25x-g524",
+      "url": "https://github.com/advisories/GHSA-8xcm-r25x-g524"
+    },
+    "1130727": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1130727,
+      "title": "undici vulnerable to CRLF Injection via blob-like body 'type' property",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.28.0",
+      "patched_versions": ">=6.28.0",
+      "severity": "moderate",
+      "cwe": "CWE-93",
+      "github_advisory_id": "GHSA-m8rv-5g2x-5cg5",
+      "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5"
+    },
+    "1130732": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1130732,
+      "title": "undici vulnerable to cookie attribute injection via unsanitized domain and unparsed setCookie fields",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.28.0",
+      "patched_versions": ">=6.28.0",
+      "severity": "moderate",
+      "cwe": "CWE-74",
+      "github_advisory_id": "GHSA-v3r7-h72x-cjcm",
+      "url": "https://github.com/advisories/GHSA-v3r7-h72x-cjcm"
+    },
+    "1137243": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1137243,
+      "title": "undici vulnerable to HTTP response queue poisoning via keep-alive socket reuse",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.27.0",
+      "patched_versions": ">=6.27.0",
+      "severity": "low",
+      "cwe": "CWE-367",
+      "github_advisory_id": "GHSA-35p6-xmwp-9g52",
+      "url": "https://github.com/advisories/GHSA-35p6-xmwp-9g52"
+    },
+    "1240039": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1240039,
+      "title": "undici vulnerable to downstream response splitting via retry interceptor",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.28.1",
+      "patched_versions": ">=6.28.1",
+      "severity": "low",
+      "cwe": "CWE-444",
+      "github_advisory_id": "GHSA-r53p-7pc4-xj5r",
+      "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r"
+    },
+    "1240042": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1240042,
+      "title": "undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
+      "module_name": "undici",
+      "vulnerable_versions": ">=6.7.0 <6.28.1",
+      "patched_versions": ">=6.28.1",
+      "severity": "high",
+      "cwe": "CWE-248, CWE-252",
+      "github_advisory_id": "GHSA-rfgv-xxqx-mfg5",
+      "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5"
+    },
+    "1243079": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1243079,
+      "title": "undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+      "module_name": "undici",
+      "vulnerable_versions": ">=6.5.0 <6.29.1",
+      "patched_versions": ">=6.29.1",
+      "severity": "moderate",
+      "cwe": "CWE-770",
+      "github_advisory_id": "GHSA-4qv8-2p9j-2685",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685"
+    },
+    "1243476": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1243476,
+      "title": "undici vulnerable to TLS certificate validation bypass via dropped tls options in Agent",
+      "module_name": "undici",
+      "vulnerable_versions": ">=4.0.0 <6.29.1",
+      "patched_versions": ">=6.29.1",
+      "severity": "high",
+      "cwe": "CWE-295",
+      "github_advisory_id": "GHSA-2m5v-pch6-74hx",
+      "url": "https://github.com/advisories/GHSA-2m5v-pch6-74hx"
+    },
+    "1243479": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1243479,
+      "title": "undici vulnerable to Denial of Service via TLS 1.2 certificate-changing renegotiation",
+      "module_name": "undici",
+      "vulnerable_versions": ">=4.2.1 <6.29.1",
+      "patched_versions": ">=6.29.1",
+      "severity": "high",
+      "cwe": "CWE-248, CWE-617",
+      "github_advisory_id": "GHSA-qrxm-fqhp-jwvm",
+      "url": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm"
+    },
+    "1243482": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1243482,
+      "title": "undici WebSocket client vulnerable to Denial of Service via unbounded automatic PONG buffering",
+      "module_name": "undici",
+      "vulnerable_versions": ">=5.15.0 <6.29.1",
+      "patched_versions": ">=6.29.1",
+      "severity": "moderate",
+      "cwe": "CWE-400, CWE-405, CWE-770",
+      "github_advisory_id": "GHSA-9fm3-97px-rjf6",
+      "url": "https://github.com/advisories/GHSA-9fm3-97px-rjf6"
+    },
+    "1244534": {
+      "findings": [
+        {
+          "version": "6.20.1",
+          "paths": [
+            ".>@nestjs/mau>undici"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1244534,
+      "title": "undici WebSocket client vulnerable to denial of service via fragment count bypass",
+      "module_name": "undici",
+      "vulnerable_versions": "<6.27.0",
+      "patched_versions": ">=6.27.0",
+      "severity": "high",
+      "cwe": "CWE-400, CWE-770",
+      "github_advisory_id": "GHSA-vxpw-j846-p89q",
+      "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q"
+    },
+    "1244623": {
+      "findings": [
+        {
+          "version": "10.2.6",
+          "paths": [
+            ".>@nestjs/cli>minimatch"
+          ],
+          "dev": true,
+          "optional": false,
+          "bundled": false
+        }
+      ],
+      "id": 1244623,
+      "title": "minimatch has potential denial of service via globparts amplification",
+      "module_name": "minimatch",
+      "vulnerable_versions": ">=7.0.0 <11.0.1",
+      "patched_versions": ">=11.0.1",
+      "severity": "moderate",
+      "cwe": "CWE-405",
+      "github_advisory_id": "GHSA-g3hv-75wg-m249",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249"
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 5,
+      "moderate": 11,
+      "high": 8,
+      "critical": 0
+    },
+    "dependencies": 98,
+    "devDependencies": 279,
+    "optionalDependencies": 53,
+    "totalDependencies": 377
+  }
+}
